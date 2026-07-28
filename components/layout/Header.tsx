@@ -58,7 +58,7 @@ export default function Header() {
               href="/"
               aria-label="BloomShop Home"
             >
-              HAYATI<span className="text-primary">ACCESSORIES</span>
+              HAYATI<span className="text-primary"> SHOP</span>
             </Link>
 
             <nav
