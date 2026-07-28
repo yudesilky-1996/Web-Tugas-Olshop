@@ -40,7 +40,7 @@ export default function Header() {
 
   const isActivePath = (path: string) => pathname === path;
 
-  const navItems = [{ href: "/contact", label: "Contact" }];
+  const navItems = [{ href: "/contact", label: "Hubungi Kami" }];
 
   return (
     <header
@@ -87,7 +87,7 @@ export default function Header() {
             <form className="relative w-full">
               <input
                 type="search"
-                placeholder="Search products..."
+                placeholder="Cari Produk Yang Kamu Inginkan..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full pl-10 pr-4 py-2 text-sm border border-gray-300 rounded-full focus:outline-none focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all"
